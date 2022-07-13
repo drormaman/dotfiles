@@ -1,0 +1,18 @@
+[user]
+	email = drormaman@gmail.com
+	name = Dror Maman
+[alias]
+        pxm = pull upstream master
+        co = checkout
+        cob = checkout -b
+        cm = commit -m
+        cma = !git add -A && git comit -m
+        lg = log --color --graph --all --decorate --oneline
+[merge]
+        ff = true
+[pull]
+        ff = true
+[core]
+        editor = nvim
+[credential]
+        helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
