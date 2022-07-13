@@ -1,6 +1,3 @@
-# Note: in case of no permission when running the script. run:
-# $ chmod +x install.sh
-
 # install nix (single user)
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 
