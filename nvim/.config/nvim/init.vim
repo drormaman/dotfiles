@@ -23,7 +23,7 @@ set nowrap
 set splitbelow
 set splitright
 set hidden
-set scrolloff=8
+set scrolloff=12
 set noshowmode
 set updatetime=250
 set encoding=UTF-8
@@ -34,10 +34,19 @@ set mouse=a
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'sainnhe/gruvbox-material'
-
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plug 'nvim-lualine/lualine.nvim'
+" If you want to have icons in your statusline choose one of these
+Plug 'kyazdani42/nvim-web-devicons'
 
 call plug#end()
 
+" require plugins config
+lua require('drorm')
+
+" --- Colors ----------
 set background=dark
 set termguicolors
 colorscheme gruvbox-material
