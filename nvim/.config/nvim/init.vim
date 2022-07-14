@@ -41,6 +41,9 @@ Plug 'nvim-lualine/lualine.nvim'
 " If you want to have icons in your statusline choose one of these
 Plug 'kyazdani42/nvim-web-devicons'
 
+Plug 'tpope/vim-fugitive'
+Plug 'lewis6991/gitsigns.nvim'
+
 call plug#end()
 
 " require plugins config
