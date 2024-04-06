@@ -9,5 +9,6 @@ return {
   config = function ()
     require('neo-tree').setup {}
   end,
-  vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>"),
+  vim.keymap.set("n", "<C-n>", ":Neotree toggle left<CR>"),
+  vim.keymap.set("n", "<C-n>r", ":Neotree toggle right<CR>"),
 }
