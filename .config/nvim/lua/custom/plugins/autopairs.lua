@@ -1,3 +1,4 @@
+-- Automaticaly close brackets and such
 return {
   "windwp/nvim-autopairs",
   -- Optional dependency
