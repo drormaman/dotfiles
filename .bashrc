@@ -120,6 +120,8 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 
 alias vim='nvim'
+alias 'front-dev'='tmuxifier s frontend'
+alias 'front-p-dev'='tmuxifier s f-p'
 
 # for persistant github
 /usr/bin/keychain -q --nogui $HOME/.ssh/id_ed25519
